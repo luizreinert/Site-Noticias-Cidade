@@ -1,0 +1,379 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0%;;
+}
+
+
+.page-header{
+    background: blue url(imagens/fundo.png);
+    height: 232px;
+}
+
+#logo{
+    position: relative;
+    width: 9%;
+    margin-left: 18%;
+    top: 10%;
+    min-width: 150px;
+}
+
+#img-adc{
+    position: relative;
+    width: 10%;
+    left: 75%;
+    bottom: 50%;
+    z-index: 0;
+}
+
+.navbar-header{
+    width: fit-content;
+    display: flex;
+    position: relative;
+    margin: 0px 18%;
+    top: 50px;
+    z-index: 1;
+}
+
+.navbar-header a{
+    background: rgb(177, 3, 51) url(imagens/divisor.png) no-repeat right;
+    color: rgb(243, 243, 243);
+    padding: 10px 50px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 14pt;
+}
+
+.navbar-header a:hover{
+    transition: background-color 0.3s ease-in-out;
+    background-color: rgb(199, 0, 60);
+}
+
+.page-body{
+    margin: 1% 15%;
+}
+
+.menu-left{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    height: fit-content;
+    resize: vertical;
+    min-width: 15%;
+}
+
+.box-header{
+    font-size: 18pt;
+    text-align: center;
+    background-color: rgb(41,76,113);
+    color: white;
+    padding: 3px;
+    margin: 10px 10px 15px 10px;
+}
+
+.box{
+    background:white url(imagens/fundo-caixa.png);
+    padding: 5px 0px;
+    min-width: 157px;
+    margin-bottom: 10px;
+}
+
+.box ul{
+    list-style: none;
+    padding: 0px;
+    margin: 10px 10px;
+}
+
+.box li, input{
+    padding: 10px 10px;
+    background-color: rgb(250, 249, 249);
+    font-weight: 600;
+}
+
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
+.box li:hover{
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(177, 3, 51);
+
+}
+
+#fundo-news{
+    background-color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box p{
+    margin: 0px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.box input[type=text]{
+    margin: 0px 5px;
+    border: 1px solid gray;
+    width: 80%;
+    text-align: center;
+}
+
+.box input[type=button]{
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 15px;
+    background-color: rgb(177, 3, 51);
+    border: 0px;
+    width: 80%;
+    color: white;
+}
+
+.box input[type=button]:hover{
+    transition: background-color 0.3s ease-in-out;
+    background-color: rgb(199, 0, 60);
+
+}
+
+.coluna{
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+    min-width: 30%;
+    height: auto;
+    margin: 0px 10px;
+}
+
+.menu-hor1{
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0px 5px 10px 5px;
+    width: 100%;
+    height: fit-content;
+    background: url(imagens/fundo-caixa.png);
+}
+
+.news-header{
+    font-size: 18pt;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+    background-color: rgb(41,76,113);
+    color: white;
+}
+
+#fundo-news h2{
+    color: rgb(250, 250, 250);
+    background-color: rgb(177, 3, 51);
+    font-size: 15pt;
+    width: fit-content;
+    padding: 5px 15px;
+    margin: 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: fit-content;
+    white-space: nowrap;
+}
+
+.news a{
+    color: rgb(177, 3, 51);
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.news img{
+    width: 90%;
+    min-width: 70%;
+    margin: 0px 5%;
+}
+
+#fundo-news{
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-column{
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0px 5px 5px 5px;
+    margin: 15px 0px 5px 0px;
+    width: 100%;
+    background: url(imagens/fundo-caixa.png);
+}
+
+.menu-column ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.menu-column li{
+    white-space: nowrap;
+    margin: 5px 5px;
+}
+
+.container{
+    background-color: white;
+    width: fit-content;
+    height: auto;
+    margin: 10px;
+}
+
+.img-news{
+    display: inline-block;
+    margin: 10px 5px 10px 10px;
+    width: 127px;
+    height: 84px;
+    vertical-align: middle;
+}
+
+.content-news{
+    display: inline-block;
+    margin: 10px 5px 10px 10px;
+    width: 45%;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+.content-news a{
+    color: rgb(110, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.content-news p{
+    font-size: 11pt;
+    text-wrap: wrap;
+    margin-top: 5px;
+}
+
+.body-main{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px 10px 10px;
+    width: 70%;
+    padding: 5px 0px;
+    border: 2px solid green ;
+
+}
+
+.coluna-main{
+    display: inline-block;
+    vertical-align: top;
+    width:100%;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+.coluna-main img{
+    margin: 0px 10%;
+}
+
+.coluna-main p{
+    margin: 5px 5px;
+    font-size: 15pt;
+}
+
+.coluna-main a{
+    margin: 5px 5px;
+    font-size: 16pt;
+    color: rgb(110, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu-column-main{
+    display: block;
+    align-content: left;
+    width:100%;
+    padding: 5px 0px;
+    background: url(imagens/fundo-caixa.png);    
+}
+
+.menu-column-main img{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.menu-column-main .content-news{
+    width: 75%;
+}
+
+.menu-column-main .content-news a{
+    color: rgb(110, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16pt;
+}
+
+.menu-column-main .content-news p{
+    width: 100%;
+    overflow: invisible;
+    text-wrap: wrap;
+    text-align: justify;
+}
+
+.menu-column-main ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu-column-main li{
+    margin: 5px 0px;
+}
+
+.menu-column-main .container{
+    width: auto;
+    margin: 10px;
+    padding: 5px 0px;
+}
+
+.page-body-fotos{
+    margin: 1% 25%;
+}
+
+.page-body-fotos img{
+    margin-left: 10%;
+}
+
+.page-body-fotos p{
+    font-size: 13pt;
+}
+
+.coluna-fotos{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+
+footer{
+    background-color: rgb(41,76,113);
+    color: white;
+    font-weight: 600;
+    user-select: none;
+    height: 100px;
+    text-align: center;
+    font-size: 16pt;
+    line-height: 100px;
+}
